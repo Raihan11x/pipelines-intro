@@ -63,5 +63,7 @@ jobs:
         pip install -r requirements.txt
 
     - name: Build and Run Application
+      env:
+        NON_INTERACTIVE: true
       run: |
         python src/math_quiz.py
