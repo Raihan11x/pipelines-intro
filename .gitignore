@@ -1,2 +1,35 @@
-__pycache__
-pytest.ini
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+*.egg-info/
+.dist-info/
+build/
+develop-eggs/
+eggs/
+lib/
+lib64/
+pip-wheel-metadata/
+venv/
+ENV/
+env/
+.env
+
+# Test and coverage
+.coverage
+.coverage.*
+nosetests.xml
+test-results/
+pytest_cache/
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
